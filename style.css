@@ -64,10 +64,11 @@ nav a:hover {
     justify-content: center;
     gap: 1rem;
     padding: 0.5rem;
+    font-size: 0.85rem;
   }
 
   nav {
-    padding: 0.5rem;
+    padding: 0.1rem;
   }
 }
 
