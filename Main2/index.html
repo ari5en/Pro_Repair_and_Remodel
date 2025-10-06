@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pro Repair & Remodel</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
   <!-- Header / Navbar -->
   <header>
-  <div class="logo-container">
-    <img src="Resources/logo-removebg-preview.png" alt="Logo">
-  </div>
-</header>
+    <div class="logo-container">
+      <img src="Resources/Logo/logo.jpg" alt="Logo">
+    </div>
+  </header>
 
 <nav>
-  <ul>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+  <ul id="nav-list">
     <li><a href="#home">Home</a></li>
     <li><a href="#services">Services</a></li>
     <li><a href="#work">Our Work</a></li>
-    <li><a href="#about">About Us</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -28,86 +34,202 @@
   <!-- Home Section -->
   <section id="home">
     <div class="home-overlay">
-  <div class="home-content">
-    <h2>Transforming Houses,<br>Creating Homes.</h2>
-    <div class="home-buttons">
-      <a href="#services" class="btn">Our Services</a>
-      <a href="#contact" class="btn">Contact Us</a>
+      <div class="home-content">
+        <h2>Transforming Houses,<br>Creating Homes.</h2>
+        <div class="home-buttons">
+          <a href="#services" class="btn">Our Services</a>
+          <a href="#contact" class="btn">Contact Us</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
 
     <!-- Background Rows -->
-    <!-- Background Rows -->
-<div class="bg-container">
-  <div class="bg-row row1">
-    <img src="resources/image1.jpg" alt="">
-    <img src="resources/image2.jpg" alt="">
-    <img src="resources/image3.jpg" alt="">
-    <img src="resources/image4.jpg" alt="">
+    <div class="bg-container">
+      <div class="bg-row row1">
+        <img src="Resources/Images/image1.jpeg" alt="">
+        <img src="Resources/Images/image2.jpeg" alt="">
+        <img src="Resources/Images/image3.PNG" alt="">
+        <img src="Resources/Images/image4.PNG" alt="">
 
-    <!-- repeat for seamless scroll -->
-    <img src="resources/image1.jpg" alt="">
-    <img src="resources/image2.jpg" alt="">
-    <img src="resources/image3.jpg" alt="">
-    <img src="resources/image4.jpg" alt="">
-  </div>
+        <!-- repeat for seamless scroll -->
+        <img src="Resources/Images/image5.PNG" alt="">
+        <img src="Resources/Images/image6.jpeg" alt="">
+        <img src="Resources/Images/image7.PNG" alt="">
+        <img src="Resources/Images/image8.PNG" alt="">
+      </div>
 
-  <div class="bg-row row2">
-    <img src="resources/image5.jpg" alt="">
-    <img src="resources/image6.jpg" alt="">
-    <img src="resources/image7.jpg" alt="">
-    <img src="resources/image8.jpg" alt="">
+      <div class="bg-row row2">
+        <img src="Resources/Images/image9.PNG" alt="">
+        <img src="Resources/Images/image10.PNG" alt="">
+        <img src="Resources/Images/image11.jpeg" alt="">
+        <img src="Resources/Images/image12.jpeg" alt="">
 
-    <!-- repeat for seamless scroll -->
-    <img src="resources/image5.jpg" alt="">
-    <img src="resources/image6.jpg" alt="">
-    <img src="resources/image7.jpg" alt="">
-    <img src="resources/image8.jpg" alt="">
-  </div>
-</div>
-
+        <!-- repeat for seamless scroll -->
+        <img src="Resources/Images/image13.jpeg" alt="">
+        <img src="Resources/Images/image14.PNG" alt="">
+        <img src="Resources/Images/image15.jpeg" alt="">
+        <img src="Resources/Images/image16.jpeg" alt="">
+      </div>
+    </div>
   </section>
 
   <!-- Services Section -->
   <section id="services">
-    <h2>Services We Offer</h2>
+    <h2 class="section-title">Services Offered</h2>
     <div class="service-box">
-      <div>Kitchen Remodeling</div>
-      <div>Bathroom Renovation</div>
-      <div>Home Repairs</div>
+      <div class="service-card">
+        <img src="Resources/Images/image13.jpeg" alt="Kitchen Remodeling">
+        <p>Kitchen Remodeling</p>
+      </div>
+      <div class="service-card">
+        <img src="Resources/Images/image7.PNG" alt="Bathroom Remodeling">
+        <p>Bathroom Remodeling</p>
+      </div>
+      <div class="service-card">
+        <img src="Resources/Images/image17.jpeg" alt="Roof Replacement">
+        <p>Roof Replacement</p>
+      </div>
+      <div class="service-card">
+        <img src="Resources/Images/image18.PNG" alt="Repair Flooring">
+        <p>Repair Flooring</p>
+      </div>
     </div>
+
+    <h3 class="more-services">More Services</h3>
+
+    <ul class="service-list">
+      <li>New roof installation</li>
+      <li>Remodeling</li>
+      <li>Flooring</li>
+      <li>Custom cabinetry</li>
+      <li>Deck construction</li>
+      <li>Building additions</li>
+      <li>New room addition</li>
+      <li>Home renovations</li>
+      <li>Home building</li>
+      <li>General construction</li>
+      <li>General repairs</li>
+      <li>Manufactured home construction</li>
+      <li>Single-family home construction</li>
+      <li>Guest house or ADU construction</li>
+      <li>Modular home construction</li>
+      <li>Custom home design</li>
+      <li>Detached garage</li>
+      <li>Residential and commercial</li>
+      <li>Complete remodeling services</li>
+      <li>Roof repair</li>
+      <li>Roof inspection</li>
+      <li>Reroofing</li>
+      <li>Skylight installation</li>
+      <li>Gutter cleaning</li>
+    </ul>
   </section>
 
   <!-- Our Work Section -->
   <section id="work">
-    <h2>Our Work</h2>
+    <h2 class="section-title">Our Work</h2>
     <div class="work-gallery">
-      <div></div><div></div><div></div>
-      <div></div><div></div><div></div>
+      <div style="background-image: url('Resources/Images/image6.jpeg');"></div>
+      <div style="background-image: url('Resources/Images/image7.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image8.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image9.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image14.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image11.jpeg');"></div>
+      <div style="background-image: url('Resources/Images/image12.jpeg');"></div>
+      <div style="background-image: url('Resources/Images/image1.jpeg');"></div>
+      <div style="background-image: url('Resources/Images/image2.jpeg');"></div>
+      <div style="background-image: url('Resources/Images/image3.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image4.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image5.PNG');"></div>
+      <div style="background-image: url('Resources/Images/image15.jpeg');"></div>
     </div>
   </section>
 
   <!-- About Us Section -->
   <section id="about">
-    <h2>About Us</h2>
-    <p>
-      At Pro Repair & Remodel, we specialize in high-quality home improvement services.
-      Our team is dedicated to delivering exceptional craftsmanship and customer satisfaction.
-    </p>
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p class="tagline">Building Trust, One Home at a Time</p>
+
+        <h3>Who We Are</h3>
+        <p>
+          Since 1996, <strong>Pro Repair & Remodel</strong> has proudly served San Diego with
+          remodeling and construction services rooted in quality, trust, and care.
+          From modern kitchens to timeless bathroom designs, we bring craftsmanship 
+          and attention to detail that lasts for generations.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-box">
+            <h4>25+ Years</h4>
+            <p>of experience in construction</p>
+          </div>
+          <div class="highlight-box">
+            <h4>100s of Projects</h4>
+            <p>successfully completed across San Diego</p>
+          </div>
+          <div class="highlight-box">
+            <h4>Licensed & Insured</h4>
+            <p>for your peace of mind</p>
+          </div>
+        </div>
+
+        <h3>Our Mission</h3>
+        <p>
+          We believe every home deserves thoughtful design and lasting quality.
+          Whether you’re looking for a modern refresh or a classic touch, our mission 
+          is to deliver results on time, within budget, and beyond expectations.
+        </p>
+
+        <h3>Meet the Owner</h3>
+        <div class="owner-section">
+          <img src="Resources/Icons/profilepicture.jpg" alt="Owner Photo" class="owner-photo">
+          <div class="owner-text">
+            <p>
+              <strong>Pedro Sagadal</strong>, founder of Pro Repair & Remodel, has
+              over 25 years of experience in residential construction. 
+            </p>
+            <blockquote>
+              “Every project is personal to me. My goal is simple—help families feel
+              proud and comfortable in their homes.” – Pedro
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@prorepairremodel.com | Phone: (123) 456-7890</p>
-    <div class="contact-icons">
-      <a href="#">📞</a>
-      <a href="#">✉️</a>
-      <a href="#">📍</a>
+  <h2>Let's Build Your Dream Home</h2>
+  <div class="contact-grid">
+    <div class="contact-item">
+      <img src="resources/icons/phone.png" alt="Phone">
+      <span>(123) 456-7890</span>
     </div>
-  </section>
+    <div class="contact-item">
+      <img src="resources/icons/gmail.png" alt="Email">
+      <span>info@prorepairremodel.com</span>
+    </div>
+    <div class="contact-item">
+      <img src="resources/icons/google-maps.png" alt="Location">
+      <a href="https://www.google.com/maps/place/San+Diego,+CA+92105" target="_blank">
+        San Diego, CA 92105
+      </a>
+    </div>
+    <div class="contact-item">
+      <img src="resources/icons/google-calendar.png" alt="Schedule">
+      <span>Mon – Sun: 7 AM – 9 PM</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Pro Repair & Remodel</p>
+  <p>All rights reserved.</p>
+</footer>
+
 
 </body>
 </html>
