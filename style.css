@@ -356,7 +356,7 @@ nav a:hover {
 =================== */
 #about {
   position: relative;
-  background: url("resources/images/image2.jpeg") center center/cover no-repeat fixed;
+  background: url("Resources/Images/image2.jpeg") center center/cover no-repeat fixed;
   color: white;
   padding: 80px 20px;
   text-align: center;
